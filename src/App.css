@@ -1,0 +1,144 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.formWrapper {
+  
+  background: #e9eadd;
+  padding: 20px;
+  border-radius: 2%;
+  width: 400px;
+  max-width: 90%;
+
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #4aee88;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #4a3a1e;
+}
+
+.homePageLogo {
+  height: 170px;
+  margin-bottom: 0px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn,
+.leaveBtn {
+  background: #864136;
+  width: 100px;
+  margin-left: auto;
+  COLOR:#EEE
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+  background: #2b824c;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #4a3a1e;
+}
+
+.createNewBtn {
+  color: #864136;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+  color: #886c6c;
+  border-color: #368654;
+}
+
+.mainWrapper {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.sidebar {
+  background: #e9eadd;
+  padding: 16px;
+  color: #4a3a1e;
+  display: flex;
+  flex-direction: column;
+}
+.sideInner {
+  flex: 1;
+}
+
+.usersList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+.CodeMirror {
+  min-height: 96vh;
+  font-size: 17px;
+  line-height: 1.6;
+  padding-top: 30px;
+}
